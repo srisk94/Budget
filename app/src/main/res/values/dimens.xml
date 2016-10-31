@@ -1,0 +1,14 @@
+<resources>
+	<dimen name="cardWidth">256dp</dimen>
+    <dimen name="cardSpacing">8dp</dimen>
+    <dimen name="cardPadding">8dp</dimen>
+    <dimen name="halfCardPadding">4dp</dimen>
+    <dimen name="fullPadding">16dp</dimen>
+    <dimen name="titlePadding">16dp</dimen>
+    <dimen name="fullPadded">64dp</dimen>
+    <dimen name="presentText">34sp</dimen>
+    <dimen name="tabletBool">0dp</dimen>
+    <dimen name="graphHeight">256dp</dimen>
+    <dimen name="graphStroke">4dp</dimen>
+</resources>
+

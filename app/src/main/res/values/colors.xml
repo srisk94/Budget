@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="windowBackground">#aaa</color>
+    <color name="cardBackground">#ccc</color>
+	<color name="actionBarBackground">#eee</color>
+    <color name="focusedBackground">#c4884b</color>
+    <color name="selectedBackground">#a06a34</color>
+    <color name="superSelectedBackground">#be7e3e</color>
+    <color name="dialogWindowTitle">#56391c</color>
+    <color name="badForeground">#ffcc0000</color>
+    <color name="focusedCardBackground">#c4884b</color>
+    <color name="selectedCardBackground">#a06a34</color>
+    <color name="superSelectedCardBackground">#be7e3e</color>
+    <color name="cardDivider">#ffb7b7b7</color>
+</resources>
+

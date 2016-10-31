@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.srima.bb.MonitorScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scroll"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+>
+<LinearLayout android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent">
+    <include layout="@layout/totalamount"/>
+    <include layout="@layout/cards"/>
+    <FrameLayout android:id="@+id/graph"
+                 android:layout_width="fill_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_margin="@dimen/cardSpacing"
+                 android:padding="@dimen/cardPadding"
+                 android:background="@color/cardBackground">
+    </FrameLayout>
+</LinearLayout>
+</com.srima.bb.MonitorScrollView>
+

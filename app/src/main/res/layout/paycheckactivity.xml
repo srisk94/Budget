@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.srima.bb.MonitorScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scroll"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+>
+<LinearLayout android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content">
+    <com.srima.bb.DeleteView
+        android:id="@+id/docs"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/cardSpacing"
+    >
+    <RelativeLayout android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/stateful_card_background"
+                    android:padding="@dimen/cardPadding">
+        <TextView android:text="@string/paycheck_docs"
+                  android:textSize="18sp"
+                  android:layout_alignParentLeft="true"
+                  android:layout_centerVertical="true"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"/>
+        <TextView android:text="@string/gotIt"
+                  android:textSize="14sp"
+                  android:textAllCaps="true"
+                  android:layout_alignParentRight="true"
+                  android:layout_centerVertical="true"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"/>
+        </RelativeLayout>
+    </com.srima.bb.DeleteView>
+    <RelativeLayout android:id="@+id/spendingCard"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/fullPadding">
+        <TextView android:text="@string/paycheck_spent"
+                  android:textColor="#000"
+                  android:textSize="@dimen/presentText"
+                  android:fontFamily="sans-serif-light"
+                  android:layout_alignParentTop="true"
+                  android:layout_alignParentLeft="true"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"/>
+        <TextView android:id="@+id/spent"
+                  android:textColor="#000"
+                  android:textSize="@dimen/presentText"
+                  android:textStyle="bold"
+                  android:layout_alignParentTop="true"
+                  android:layout_alignParentRight="true"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"/>
+        <ProgressBar style="@style/Style.ProgressBar"
+                     android:id="@+id/progress"
+                     android:layout_below="@id/spent"
+                     android:layout_width="fill_parent"
+                     android:layout_height="wrap_content"/>
+    </RelativeLayout>
+    <include layout="@layout/cards"/>
+</LinearLayout>
+</com.srima.bb.MonitorScrollView>
+
